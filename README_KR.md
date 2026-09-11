@@ -74,7 +74,7 @@ MuseTalk을 기반으로 음성과 얼굴 영상의 lip-sync 개선을 실험하
 - Flat / Hierarchical classification 구조 비교
 - Abusive chat filtering Web Demo 구현
 
-**Repository:** 준비 중
+**Repository:** [dawon-ds/korean-hate-speech-detection](https://github.com/dawon-ds/korean-hate-speech-detection)
 
 ---
 
