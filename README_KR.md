@@ -47,7 +47,7 @@ MuseTalk을 기반으로 음성과 얼굴 영상의 lip-sync 개선을 실험하
 ### 🗣️ PhonoTrans
 **Japanese Pronunciation-based Translation** · 2025
 
-일본어를 듣고 이해할 수 있지만 원문을 입력하기 어려운 사용자를 위해, **한글로 적은 일본어 발음에서 한국어 의미를 직접 예측**하는 번역 모델을 개발한 프로젝트입니다.
+일본어를 모르는 사용자가 들리는 일본어 발음을 한글 그대로 입력하면, 해당 일본어 표현을 파악해 대응하는 한국어 의미를 제공하는 발음 기반 번역 시스템입니다.
 
 `Python` `Seq2Seq` `Attention` `NLP` `Data Augmentation`
 
