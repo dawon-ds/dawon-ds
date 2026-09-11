@@ -47,7 +47,7 @@ A capstone project focused on improving audio-visual lip synchronization based o
 ### 🗣️ PhonoTrans
 **Japanese Pronunciation-based Translation** · 2025
 
-A translation project designed to predict Korean meaning directly from Japanese pronunciation written in Hangul, targeting users who can recognize spoken Japanese but cannot easily type the original Japanese script.
+A Japanese translation system that allows users unfamiliar with Japanese to enter what they hear phonetically in Hangul and receive the corresponding Korean meaning.
 
 `Python` `Seq2Seq` `Attention` `NLP` `Data Augmentation`
 
