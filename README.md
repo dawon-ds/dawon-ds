@@ -29,18 +29,18 @@ I am building this GitHub portfolio to document my projects, experiments, and le
 ## Selected Projects
 
 ### 🎙️ Audio-Driven Talking-Head Generation
-**MuseTalk Lip-Sync Improvement** · 2026
+**MuseTalk-based Talking-Head Generation** · 2026
 
-A project focused on improving audio-visual lip synchronization based on MuseTalk and building a web-based inference demo for generating and reviewing talking-head videos.
+A project built on MuseTalk for audio-driven talking-head generation, covering audio-visual synchronization, training and inference workflows, and a web-based demo for generating and reviewing talking-head videos.
 
 `Python` `Deep Learning` `Computer Vision` `MuseTalk`
 
-- Built and validated a MuseTalk v1.0 inference baseline
-- Conducted experiments on a lip-centric model improvement approach and analyzed results
-- Integrated an end-to-end inference flow from reference image and audio to generated video
+- Built and validated MuseTalk training and inference workflows
+- Explored a lip-centric experimental architecture for audio-visual synchronization
+- Integrated an end-to-end inference flow from reference media and audio to generated video
 - Developed a Python-based web demo for running inference and previewing results
 
-**Repository:** [dawon-ds/musetalk-lipsync-improvement](https://github.com/dawon-ds/musetalk-lipsync-improvement)
+**Repository:** [dawon-ds/audio-driven-talking-head-generation](https://github.com/dawon-ds/audio-driven-talking-head-generation)
 
 ---
 
