@@ -29,18 +29,18 @@
 ## Selected Projects
 
 ### 🎙️ Audio-Driven Talking-Head Generation
-**MuseTalk Lip-Sync Improvement** · 2026
+**MuseTalk-based Talking-Head Generation** · 2026
 
-MuseTalk을 기반으로 음성과 얼굴 영상의 lip-sync 개선을 실험하고, 입력부터 결과 영상 생성까지 확인할 수 있는 웹 기반 inference demo를 구축한 프로젝트입니다.
+MuseTalk을 기반으로 음성 구동 Talking-Head 영상을 생성하는 프로젝트로, audio-visual synchronization과 training/inference workflow, 결과 영상을 생성하고 확인할 수 있는 Web Demo를 구성했습니다.
 
 `Python` `Deep Learning` `Computer Vision` `MuseTalk`
 
-- MuseTalk v1.0 baseline 구축 및 inference 검증
-- Lip-Centric 모델 개선 실험 및 결과 분석
-- Reference image + audio 기반 End-to-End inference 연동
+- MuseTalk 기반 training 및 inference workflow 구축·검증
+- Audio-visual synchronization을 위한 lip-centric experimental architecture 설계
+- Reference media + audio 기반 End-to-End inference 연동
 - Python 기반 Web Demo 개발
 
-**Repository:** [dawon-ds/musetalk-lipsync-improvement](https://github.com/dawon-ds/musetalk-lipsync-improvement)
+**Repository:** [dawon-ds/audio-driven-talking-head-generation](https://github.com/dawon-ds/audio-driven-talking-head-generation)
 
 ---
 
