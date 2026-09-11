@@ -40,7 +40,7 @@ A capstone project focused on improving audio-visual lip synchronization based o
 - Integrated an end-to-end inference flow from reference image and audio to generated video
 - Developed a Python-based web demo for running inference and previewing results
 
-**Repository:** Coming soon
+**Repository:** [dawon-ds/musetalk-lipsync-improvement](https://github.com/dawon-ds/musetalk-lipsync-improvement)
 
 ---
 
