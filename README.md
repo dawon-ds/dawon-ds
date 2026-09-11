@@ -74,7 +74,7 @@ A Korean NLP project for multi-label hate-speech classification, examining how H
 - Compared flat and hierarchical classification approaches
 - Implemented a web demo for abusive-chat filtering
 
-**Repository:** Coming soon
+**Repository:** [dawon-ds/korean-hate-speech-detection](https://github.com/dawon-ds/korean-hate-speech-detection)
 
 ---
 
