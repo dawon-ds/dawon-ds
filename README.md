@@ -31,7 +31,7 @@ I am building this GitHub portfolio to document my projects, experiments, and le
 ### 🎙️ Audio-Driven Talking-Head Generation
 **MuseTalk Lip-Sync Improvement** · 2026
 
-A capstone project focused on improving audio-visual lip synchronization based on MuseTalk and building a web-based inference demo for generating and reviewing talking-head videos.
+A project focused on improving audio-visual lip synchronization based on MuseTalk and building a web-based inference demo for generating and reviewing talking-head videos.
 
 `Python` `Deep Learning` `Computer Vision` `MuseTalk`
 
