@@ -57,7 +57,7 @@ MuseTalk을 기반으로 음성과 얼굴 영상의 lip-sync 개선을 실험하
 - 발음 노이즈, Random Substitution, Random Drop 기반 데이터 증강 실험
 - 최종 발표 모델 BLEU **0.5276**
 
-**Repository:** 준비 중
+**Repository:** [dawon-ds/phonotrans](https://github.com/dawon-ds/phonotrans)
 
 ---
 
