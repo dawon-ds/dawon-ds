@@ -31,7 +31,7 @@
 ### 🎙️ Audio-Driven Talking-Head Generation
 **MuseTalk Lip-Sync Improvement** · 2026
 
-MuseTalk을 기반으로 음성과 얼굴 영상의 lip-sync 개선을 실험하고, 입력부터 결과 영상 생성까지 확인할 수 있는 웹 기반 inference demo를 구축한 캡스톤 프로젝트입니다.
+MuseTalk을 기반으로 음성과 얼굴 영상의 lip-sync 개선을 실험하고, 입력부터 결과 영상 생성까지 확인할 수 있는 웹 기반 inference demo를 구축한 프로젝트입니다.
 
 `Python` `Deep Learning` `Computer Vision` `MuseTalk`
 
