@@ -57,7 +57,7 @@ A translation project designed to predict Korean meaning directly from Japanese 
 - Experimented with pronunciation noise, random substitution, and random drop augmentation
 - Final presentation model achieved a BLEU score of **0.5276**
 
-**Repository:** Coming soon
+**Repository:** [dawon-ds/phonotrans](https://github.com/dawon-ds/phonotrans)
 
 ---
 
