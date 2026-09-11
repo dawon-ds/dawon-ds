@@ -91,7 +91,7 @@ MuseTalk을 기반으로 음성과 얼굴 영상의 lip-sync 개선을 실험하
 - Logistic Regression 기반 사망 위험 분류
 - ROC-AUC 약 **0.605** 및 주요 사망 연관 변수 분석
 
-**Repository:** 준비 중
+**Repository:** [dawon-ds/patient-mortality-analysis](https://github.com/dawon-ds/patient-mortality-analysis)
 
 ---
 
