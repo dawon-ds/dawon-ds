@@ -91,7 +91,7 @@ A clinical data analysis project exploring factors associated with mortality amo
 - Applied logistic regression to mortality-risk classification
 - Achieved an ROC-AUC of approximately **0.605** and analyzed major mortality-associated factors
 
-**Repository:** Coming soon
+**Repository:** [dawon-ds/patient-mortality-analysis](https://github.com/dawon-ds/patient-mortality-analysis)
 
 ---
 
