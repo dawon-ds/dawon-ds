@@ -40,7 +40,7 @@ MuseTalk을 기반으로 음성과 얼굴 영상의 lip-sync 개선을 실험하
 - Reference image + audio 기반 End-to-End inference 연동
 - Python 기반 Web Demo 개발
 
-**Repository:** 준비 중
+**Repository:** [dawon-ds/musetalk-lipsync-improvement](https://github.com/dawon-ds/musetalk-lipsync-improvement)
 
 ---
 
