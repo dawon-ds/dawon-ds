@@ -31,14 +31,14 @@
 ### 🎙️ Audio-Driven Talking-Head Generation
 **MuseTalk-based Talking-Head Generation** · 2026
 
-MuseTalk을 기반으로 음성 구동 Talking-Head 영상을 생성하는 프로젝트로, audio-visual synchronization과 training/inference workflow, 결과 영상을 생성하고 확인할 수 있는 Web Demo를 구성했습니다.
+MuseTalk을 기반으로 음성 구동 Talking-Head 영상을 생성하는 프로젝트로, lip-centric latent refinement와 audio-visual synchronization supervision, training/inference workflow, Web Demo를 구성했습니다.
 
-`Python` `Deep Learning` `Computer Vision` `MuseTalk`
+`Python` `PyTorch` `Computer Vision` `MuseTalk` `Whisper`
 
-- MuseTalk 기반 training 및 inference workflow 구축·검증
-- Audio-visual synchronization을 위한 lip-centric experimental architecture 설계
-- Reference media + audio 기반 End-to-End inference 연동
-- Python 기반 Web Demo 개발
+- MuseTalk 기반 training 및 normal/realtime inference workflow 구축·검증
+- Spatial Cross-Attention, Temporal Attention, residual latent update를 포함한 ADLip Generator 구현
+- SyncNet / SyncLT 기반 synchronization supervision 연동
+- Reference media + audio 입력에서 영상 생성까지 End-to-End pipeline 및 Gradio Demo 구성
 
 **Repository:** [dawon-ds/audio-driven-talking-head-generation](https://github.com/dawon-ds/audio-driven-talking-head-generation)
 
@@ -47,15 +47,15 @@ MuseTalk을 기반으로 음성 구동 Talking-Head 영상을 생성하는 프�
 ### 🗣️ PhonoTrans
 **Japanese Pronunciation-based Translation** · 2025
 
-일본어를 모르는 사용자가 들리는 일본어 발음을 한글 그대로 입력하면, 해당 일본어 표현을 파악해 대응하는 한국어 의미를 제공하는 발음 기반 번역 시스템입니다.
+일본어를 모르는 사용자가 들리는 일본어 발음을 한글 그대로 입력하면 대응하는 한국어 의미를 제공하는 발음 기반 번역 시스템입니다.
 
-`Python` `Seq2Seq` `Attention` `NLP` `Data Augmentation`
+`Python` `PyTorch` `Seq2Seq` `Attention` `NLP`
 
-- 약 24만 문장 규모의 일본어 발음·한국어 의미 데이터 활용
+- 약 **24.5만** 문장 규모의 일본어 발음–한국어 의미 데이터 구성
 - 초기 다단계 번역 구조의 오류 전파 문제 분석
 - Hangul pronunciation → Korean meaning End-to-End 구조로 재설계
 - 발음 노이즈, Random Substitution, Random Drop 기반 데이터 증강 실험
-- 최종 발표 모델 BLEU **0.5276**
+- 최종 발표 모델 **BLEU 0.5276** 기록
 
 **Repository:** [dawon-ds/phonotrans](https://github.com/dawon-ds/phonotrans)
 
@@ -64,15 +64,15 @@ MuseTalk을 기반으로 음성 구동 Talking-Head 영상을 생성하는 프�
 ### 💬 Korean Hate Speech Detection
 **Multi-label NLP Classification** · 2025
 
-한국어 온라인 텍스트의 혐오 표현을 Multi-label로 분류하고, HITL 데이터와 Lexicon 기반 Augmentation이 모델 성능과 강건성에 미치는 영향을 비교한 NLP 프로젝트입니다.
+한국어 온라인 텍스트의 혐오 표현을 분류하고, PLM 선택, HITL 데이터, robustness-oriented augmentation, Flat / Hierarchical 구조를 비교한 NLP 프로젝트입니다.
 
-`Python` `BERT` `ELECTRA` `RoBERTa` `NLP`
+`Python` `PyTorch` `BERT` `ELECTRA` `RoBERTa`
 
 - UnSmile + HateScore 데이터셋 활용
-- Korean PLM 기반 Multi-label classification 비교
-- Hybrid Lexicon 및 robustness-oriented augmentation 적용
-- Flat / Hierarchical classification 구조 비교
-- Abusive chat filtering Web Demo 구현
+- Korean PLM 기반 혐오 표현 분류 성능 비교
+- Hybrid Lexicon 및 robustness-oriented augmentation pipeline 구성
+- Flat / Hierarchical coarse·fine prediction 구조 비교
+- Hierarchical + Augmentation에서 최종 **Coarse Macro F1 0.7415**, **Fine Macro F1 0.7292** 기록
 
 **Repository:** [dawon-ds/korean-hate-speech-detection](https://github.com/dawon-ds/korean-hate-speech-detection)
 
@@ -85,11 +85,11 @@ MuseTalk을 기반으로 음성 구동 Talking-Head 영상을 생성하는 프�
 
 `Python` `Data Analysis` `Visualization` `Logistic Regression`
 
-- 2,005명 환자의 임상 데이터 통합 및 전처리
+- **2,005명** 환자의 임상 데이터 통합 및 전처리
 - 활력징후·검사·약물·처치 관련 변수 탐색
-- 극단값 기준 Feature Engineering
-- Logistic Regression 기반 사망 위험 분류
-- ROC-AUC 약 **0.605** 및 주요 사망 연관 변수 분석
+- 임계값 기반 Feature Engineering
+- Logistic Regression 기반 사망 여부 분류
+- ROC-AUC 약 **0.605** 및 주요 사망 연관 변수 해석
 
 **Repository:** [dawon-ds/patient-mortality-analysis](https://github.com/dawon-ds/patient-mortality-analysis)
 
@@ -103,4 +103,4 @@ MuseTalk을 기반으로 음성 구동 Talking-Head 영상을 생성하는 프�
 
 ## Portfolio
 
-각 프로젝트 Repository에 코드, 실행 방법, 모델 및 분석 과정, 실험 결과와 회고를 순차적으로 정리하고 있습니다.
+각 프로젝트 Repository에는 확인 가능한 자료를 바탕으로 문제 정의, 방법론, 구현, 실험, 결과와 한계를 정리하고 있습니다.
