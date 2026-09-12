@@ -31,14 +31,14 @@ I am building this GitHub portfolio to document my projects, experiments, and le
 ### 🎙️ Audio-Driven Talking-Head Generation
 **MuseTalk-based Talking-Head Generation** · 2026
 
-A project built on MuseTalk for audio-driven talking-head generation, covering audio-visual synchronization, training and inference workflows, and a web-based demo for generating and reviewing talking-head videos.
+A MuseTalk-based project for audio-driven talking-head generation, combining lip-centric latent refinement, audio-visual synchronization supervision, training/inference workflows, and a web demo.
 
-`Python` `Deep Learning` `Computer Vision` `MuseTalk`
+`Python` `PyTorch` `Computer Vision` `MuseTalk` `Whisper`
 
-- Built and validated MuseTalk training and inference workflows
-- Explored a lip-centric experimental architecture for audio-visual synchronization
-- Integrated an end-to-end inference flow from reference media and audio to generated video
-- Developed a Python-based web demo for running inference and previewing results
+- Built and validated MuseTalk training and normal/realtime inference workflows
+- Implemented an ADLip Generator with Spatial Cross-Attention, Temporal Attention, and residual latent updates
+- Integrated SyncNet / SyncLT-based synchronization supervision
+- Connected reference media and audio to an end-to-end generation pipeline and Gradio demo
 
 **Repository:** [dawon-ds/audio-driven-talking-head-generation](https://github.com/dawon-ds/audio-driven-talking-head-generation)
 
@@ -49,13 +49,13 @@ A project built on MuseTalk for audio-driven talking-head generation, covering a
 
 A Japanese translation system that allows users unfamiliar with Japanese to enter what they hear phonetically in Hangul and receive the corresponding Korean meaning.
 
-`Python` `Seq2Seq` `Attention` `NLP` `Data Augmentation`
+`Python` `PyTorch` `Seq2Seq` `Attention` `NLP`
 
-- Used a dataset of approximately 240,000 Japanese sentences with pronunciation and Korean meaning
+- Built a dataset of approximately **245K** Japanese pronunciation–Korean meaning pairs
 - Analyzed error propagation in an initial multi-stage translation pipeline
 - Redesigned the system as an end-to-end Hangul pronunciation → Korean meaning model
 - Experimented with pronunciation noise, random substitution, and random drop augmentation
-- Final presentation model achieved a BLEU score of **0.5276**
+- Final presentation model reported **BLEU 0.5276**
 
 **Repository:** [dawon-ds/phonotrans](https://github.com/dawon-ds/phonotrans)
 
@@ -64,15 +64,15 @@ A Japanese translation system that allows users unfamiliar with Japanese to ente
 ### 💬 Korean Hate Speech Detection
 **Multi-label NLP Classification** · 2025
 
-A Korean NLP project for multi-label hate-speech classification, examining how HITL data and lexicon-based augmentation affect model performance and robustness.
+A Korean NLP project for multi-label hate-speech classification, examining PLM selection, HITL data, robustness-oriented augmentation, and flat vs. hierarchical modeling.
 
-`Python` `BERT` `ELECTRA` `RoBERTa` `NLP`
+`Python` `PyTorch` `BERT` `ELECTRA` `RoBERTa`
 
 - Used the UnSmile and HateScore datasets
-- Compared Korean pretrained language models for multi-label classification
-- Applied a hybrid lexicon and robustness-oriented text augmentation
-- Compared flat and hierarchical classification approaches
-- Implemented a web demo for abusive-chat filtering
+- Compared Korean pretrained language models for hate-speech classification
+- Constructed a hybrid lexicon and robustness-oriented text augmentation pipeline
+- Compared flat and hierarchical coarse/fine prediction structures
+- Recorded best final **Coarse Macro F1 0.7415** and **Fine Macro F1 0.7292** with Hierarchical + Augmentation
 
 **Repository:** [dawon-ds/korean-hate-speech-detection](https://github.com/dawon-ds/korean-hate-speech-detection)
 
@@ -87,9 +87,9 @@ A clinical data analysis project exploring factors associated with mortality amo
 
 - Integrated and preprocessed clinical data from **2,005 patients**
 - Explored vital signs, laboratory tests, medications, and treatment-related variables
-- Engineered features based on extreme-value thresholds
-- Applied logistic regression to mortality-risk classification
-- Achieved an ROC-AUC of approximately **0.605** and analyzed major mortality-associated factors
+- Engineered threshold-based features for mortality-factor analysis
+- Applied logistic regression to mortality classification
+- Achieved an ROC-AUC of approximately **0.605** and interpreted major mortality-associated factors
 
 **Repository:** [dawon-ds/patient-mortality-analysis](https://github.com/dawon-ds/patient-mortality-analysis)
 
@@ -103,4 +103,4 @@ A clinical data analysis project exploring factors associated with mortality amo
 
 ## Portfolio
 
-I am currently organizing each project repository with source code, setup instructions, methodology, experiments, results, and reflections.
+Each project repository documents the problem, methodology, implementation, experiments, results, and limitations where source materials are available.
