@@ -15,7 +15,8 @@ Data Science undergraduate interested in building practical machine learning sys
 
 ## Skills
 
-**Programming & data:** Python · Pandas · NumPy · Matplotlib  
+**Programming & data:** Python · SQL · Pandas · NumPy · Matplotlib  
+**Database:** SQLite  
 **Machine learning:** scikit-learn · PyTorch · TensorFlow · Keras
 
 Project repositories contain the methods, experiments, results, and limitations.
