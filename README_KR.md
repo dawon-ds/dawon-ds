@@ -1,106 +1,21 @@
 # Dawon Lee
 
-**Data Science Undergraduate | AI & Machine Learning**
+데이터사이언스를 전공하며 자연어처리, 컴퓨터 비전, 데이터 분석 프로젝트를 진행하고 있습니다.
 
-[English](./README.md) | [한국어]
+[포트폴리오](https://app.notion.com/p/Dawon-Lee-Portfolio-3e968564df5a80bc854fcd58bc3e7d90?source=copy_link) · [이메일](mailto:dawonlee000@gmail.com) · [English](./README.md) | 한국어
 
-데이터사이언스를 전공하며 머신러닝과 딥러닝을 실제 문제에 적용하는 프로젝트를 진행하고 있습니다. 현재 **자연어처리, 컴퓨터 비전, 딥러닝, 멀티모달 AI** 분야에 관심을 두고 공부하고 있습니다.
+## 프로젝트
 
-프로젝트의 결과뿐 아니라 문제 정의, 모델링 과정, 실험과 개선 과정을 기록하는 포트폴리오를 만들어가고 있습니다.
+| 프로젝트 | 주요 작업 | 결과 |
+| --- | --- | --- |
+| [음성 기반 Talking-Head 생성](https://github.com/dawon-ds/audio-driven-talking-head-generation) | MuseTalk 기반 영상 생성, 음성·영상 동기화, Gradio 데모 | 학습 및 추론 흐름 구축 |
+| [PhonoTrans](https://github.com/dawon-ds/phonotrans) | 한글로 입력한 일본어 발음을 한국어 의미로 변환 | BLEU **0.5276** |
+| [한국어 혐오표현 탐지](https://github.com/dawon-ds/korean-hate-speech-detection) | 계층적 분류와 데이터 증강을 활용한 다중 레이블 분류 | Coarse / Fine Macro F1 **0.7415 / 0.7292** |
+| [환자 사망 요인 분석](https://github.com/dawon-ds/patient-mortality-analysis) | 환자 2,005명의 임상 데이터 분석 및 분류 | ROC-AUC **0.605** |
 
----
+## 기술
 
-## Technical Skills
+**프로그래밍·데이터 분석:** Python · Pandas · NumPy · Matplotlib  
+**머신러닝:** scikit-learn · PyTorch · TensorFlow · Keras
 
-**Programming**  
-`Python`
-
-**Data Analysis**  
-`Pandas` `NumPy` `Matplotlib`
-
-**Machine Learning / Deep Learning**  
-`scikit-learn` `TensorFlow` `Keras` `PyTorch`
-
-**Areas of Interest**  
-`Natural Language Processing` `Computer Vision` `Deep Learning` `Multimodal AI` `Graph Neural Networks`
-
----
-
-## Selected Projects
-
-### 🎙️ Audio-Driven Talking-Head Generation
-**MuseTalk-based Talking-Head Generation** · 2026
-
-MuseTalk을 기반으로 음성 구동 Talking-Head 영상을 생성하는 프로젝트로, lip-centric latent refinement와 audio-visual synchronization supervision, training/inference workflow, Web Demo를 구성했습니다.
-
-`Python` `PyTorch` `Computer Vision` `MuseTalk` `Whisper`
-
-- MuseTalk 기반 training 및 normal/realtime inference workflow 구축·검증
-- Spatial Cross-Attention, Temporal Attention, residual latent update를 포함한 ADLip Generator 구현
-- SyncNet / SyncLT 기반 synchronization supervision 연동
-- Reference media + audio 입력에서 영상 생성까지 End-to-End pipeline 및 Gradio Demo 구성
-
-**Repository:** [dawon-ds/audio-driven-talking-head-generation](https://github.com/dawon-ds/audio-driven-talking-head-generation)
-
----
-
-### 🗣️ PhonoTrans
-**Japanese Pronunciation-based Translation** · 2025
-
-일본어를 모르는 사용자가 들리는 일본어 발음을 한글 그대로 입력하면 대응하는 한국어 의미를 제공하는 발음 기반 번역 시스템입니다.
-
-`Python` `PyTorch` `Seq2Seq` `Attention` `NLP`
-
-- 약 **24.5만** 문장 규모의 일본어 발음–한국어 의미 데이터 구성
-- 초기 다단계 번역 구조의 오류 전파 문제 분석
-- Hangul pronunciation → Korean meaning End-to-End 구조로 재설계
-- 발음 노이즈, Random Substitution, Random Drop 기반 데이터 증강 실험
-- 최종 발표 모델 **BLEU 0.5276** 기록
-
-**Repository:** [dawon-ds/phonotrans](https://github.com/dawon-ds/phonotrans)
-
----
-
-### 💬 Korean Hate Speech Detection
-**Multi-label NLP Classification** · 2025
-
-한국어 온라인 텍스트의 혐오 표현을 분류하고, PLM 선택, HITL 데이터, robustness-oriented augmentation, Flat / Hierarchical 구조를 비교한 NLP 프로젝트입니다.
-
-`Python` `PyTorch` `BERT` `ELECTRA` `RoBERTa`
-
-- UnSmile + HateScore 데이터셋 활용
-- Korean PLM 기반 혐오 표현 분류 성능 비교
-- Hybrid Lexicon 및 robustness-oriented augmentation pipeline 구성
-- Flat / Hierarchical coarse·fine prediction 구조 비교
-- Hierarchical + Augmentation에서 최종 **Coarse Macro F1 0.7415**, **Fine Macro F1 0.7292** 기록
-
-**Repository:** [dawon-ds/korean-hate-speech-detection](https://github.com/dawon-ds/korean-hate-speech-detection)
-
----
-
-### 🏥 Patient Mortality Factor Analysis
-**Clinical Data Visualization & Modeling** · 2024
-
-심정지 환자 데이터를 분석해 환자 사망과 연관된 주요 임상 요인을 탐색하고, 시각화와 분류 모델을 통해 패턴을 분석한 프로젝트입니다.
-
-`Python` `Data Analysis` `Visualization` `Logistic Regression`
-
-- **2,005명** 환자의 임상 데이터 통합 및 전처리
-- 활력징후·검사·약물·처치 관련 변수 탐색
-- 임계값 기반 Feature Engineering
-- Logistic Regression 기반 사망 여부 분류
-- ROC-AUC 약 **0.605** 및 주요 사망 연관 변수 해석
-
-**Repository:** [dawon-ds/patient-mortality-analysis](https://github.com/dawon-ds/patient-mortality-analysis)
-
----
-
-## Currently Learning
-
-`Graph Neural Networks` · `Natural Language Processing` · `Retrieval-Augmented Generation` · `Deep Learning`
-
----
-
-## Portfolio
-
-각 프로젝트 Repository에는 확인 가능한 자료를 바탕으로 문제 정의, 방법론, 구현, 실험, 결과와 한계를 정리하고 있습니다.
+프로젝트별 방법, 실험, 한계는 각 저장소에 정리했습니다.
