@@ -15,7 +15,8 @@
 
 ## 기술
 
-**프로그래밍·데이터 분석:** Python · Pandas · NumPy · Matplotlib  
+**프로그래밍·데이터 분석:** Python · SQL · Pandas · NumPy · Matplotlib  
+**데이터베이스:** SQLite  
 **머신러닝:** scikit-learn · PyTorch · TensorFlow · Keras
 
 프로젝트별 방법, 실험, 결과와 한계는 각 저장소에 정리했습니다.
