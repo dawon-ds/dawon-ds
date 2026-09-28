@@ -6,16 +6,16 @@ Data Science undergraduate interested in building practical machine learning sys
 
 ## Projects
 
-| Project | What I worked on | Result |
-| --- | --- | --- |
-| [Audio-Driven Talking-Head Generation](https://github.com/dawon-ds/audio-driven-talking-head-generation) | MuseTalk-based video generation, audio-visual synchronization, and a Gradio demo | Training and inference workflows |
-| [PhonoTrans](https://github.com/dawon-ds/phonotrans) | Japanese pronunciation input in Hangul to Korean meaning | BLEU **0.5276** |
-| [Korean Hate Speech Detection](https://github.com/dawon-ds/korean-hate-speech-detection) | Korean multi-label classification with hierarchical modeling and data augmentation | Coarse / fine macro F1 **0.7415 / 0.7292** |
-| [Patient Mortality Factor Analysis](https://github.com/dawon-ds/patient-mortality-analysis) | Analysis and classification of clinical data from 2,005 patients | ROC-AUC **0.605** |
+| Project | Overview |
+| --- | --- |
+| [Audio-Driven Talking-Head Generation](https://github.com/dawon-ds/audio-driven-talking-head-generation) | MuseTalk-based video generation, audio-visual synchronization, and a Gradio demo |
+| [PhonoTrans](https://github.com/dawon-ds/phonotrans) | Translating Japanese pronunciation written in Hangul into Korean meaning |
+| [Korean Hate Speech Detection](https://github.com/dawon-ds/korean-hate-speech-detection) | Korean multi-label classification using hierarchical modeling and data augmentation |
+| [Patient Mortality Factor Analysis](https://github.com/dawon-ds/patient-mortality-analysis) | Analysis and classification of clinical data from 2,005 patients |
 
 ## Skills
 
 **Programming & data:** Python · Pandas · NumPy · Matplotlib  
 **Machine learning:** scikit-learn · PyTorch · TensorFlow · Keras
 
-Project repositories contain the methods, experiments, and limitations.
+Project repositories contain the methods, experiments, results, and limitations.
