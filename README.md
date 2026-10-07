@@ -15,7 +15,20 @@ Data Science undergraduate at The Catholic University of Korea, with projects in
 | [English–Korean Speech Translation Pipeline](https://github.com/dawon-ds/english-korean-speech-translation) | English speech recognition, Korean translation, and Korean speech synthesis in one inference pipeline |
 | [Seoul Subway Ridership Analysis](https://github.com/dawon-ds/seoul-subway-analysis) | SQLite loading, SQL aggregation, and visualization of 199,290 records from 2025 Seoul Metro ridership data |
 
-[Additional Projects](https://github.com/dawon-ds?tab=repositories) cover model implementation and comparative experiments in NLP, computer vision, generative modeling, and neural machine translation.
+<details>
+<summary><strong>Additional Projects</strong></summary>
+
+- [GPT-2 Language Modeling on Amazon Reviews](https://github.com/dawon-ds/gpt2-amazon-language-modeling)
+- [Named Entity Recognition with RoBERTa & ALBERT](https://github.com/dawon-ds/named-entity-recognition-transformers)
+- [Intent Classification with Text CNN](https://github.com/dawon-ds/intent-classification-textcnn)
+- [GAN Architecture Comparison](https://github.com/dawon-ds/gan-architecture-comparison)
+- [Face Recognition with ArcFace Embeddings](https://github.com/dawon-ds/arcface-face-recognition)
+- [Movie Review Sentiment Classification with BERT](https://github.com/dawon-ds/bert-movie-review-classification)
+- [English–French Neural Machine Translation](https://github.com/dawon-ds/english-french-nmt)
+- [CIFAR-10 Image Classification with Vision Transformer](https://github.com/dawon-ds/cifar10-vit-classification)
+- [CIFAR-10 Image Classification with ResNet](https://github.com/dawon-ds/cifar10-resnet-classification)
+
+</details>
 
 ## Skills
 
