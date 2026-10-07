@@ -2,7 +2,7 @@
 
 Data Science undergraduate at The Catholic University of Korea, with projects in natural language processing, computer vision, and data analysis.
 
-[Portfolio](https://app.notion.com/p/3e968564df5a80bc854fcd58bc3e7d90) · [Email](mailto:dawonlee000@gmail.com)
+[Portfolio](https://incredible-march-0ef.notion.site/3e968564df5a80bc854fcd58bc3e7d90) · [Email](mailto:dawonlee000@gmail.com)
 
 ## Projects
 
@@ -15,7 +15,7 @@ Data Science undergraduate at The Catholic University of Korea, with projects in
 | [English–Korean Speech Translation Pipeline](https://github.com/dawon-ds/english-korean-speech-translation) | English speech recognition, Korean translation, and Korean speech synthesis in one inference pipeline |
 | [Seoul Subway Ridership Analysis](https://github.com/dawon-ds/seoul-subway-analysis) | SQLite loading, SQL aggregation, and visualization of 199,290 records from 2025 Seoul Metro ridership data |
 
-[Additional Projects](https://app.notion.com/p/3ea68564df5a814b8466e388fb1a4c8f) cover model implementation and comparative experiments in NLP, computer vision, generative modeling, and neural machine translation.
+[Additional Projects](https://incredible-march-0ef.notion.site/3ea68564df5a814b8466e388fb1a4c8f) cover model implementation and comparative experiments in NLP, computer vision, generative modeling, and neural machine translation.
 
 ## Skills
 
