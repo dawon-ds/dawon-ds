@@ -11,7 +11,7 @@ Data Science undergraduate at The Catholic University of Korea, with projects in
 | [Audio-Driven Talking-Head Generation](https://github.com/dawon-ds/audio-driven-talking-head-generation) | MuseTalk-based generation with lip-region latent refinement, synchronization supervision, and a Gradio preview |
 | [PhonoTrans \| Japanese Pronunciation-Based Translator](https://github.com/dawon-ds/phonotrans) | Attention-based GRU Seq2Seq translation from Japanese pronunciation written in Hangul to Korean meaning |
 | [Korean Hate Speech Detection \| Multi-label NLP Classification](https://github.com/dawon-ds/korean-hate-speech-detection) | Multi-label classification experiments with hierarchical modeling and data augmentation |
-| [Patient Mortality Factor Analysis \| Clinical Data Visualization & Modeling](https://github.com/dawon-ds/patient-mortality-analysis) | Exploratory analysis, feature engineering, and logistic regression on records from 2,005 cardiac arrest patients |
+| [Patient Mortality Prediction with MIMIC Data](https://github.com/dawon-ds/patient-mortality-analysis) | Clinical data integration and comparison of XGBoost, logistic regression, BERT, and RoBERTa for mortality within 120 hours of admission |
 | [English–Korean Speech Translation Pipeline](https://github.com/dawon-ds/english-korean-speech-translation) | English speech recognition, Korean translation, and Korean speech synthesis in one inference pipeline |
 | [Seoul Subway Ridership Analysis](https://github.com/dawon-ds/seoul-subway-analysis) | SQLite loading, SQL aggregation, and visualization of 199,290 records from 2025 Seoul Metro ridership data |
 
