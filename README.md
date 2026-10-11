@@ -33,5 +33,5 @@ Data Science undergraduate at The Catholic University of Korea, with projects in
 ## Skills
 
 **Languages / Database:** Python · SQL · MySQL · SQLite  
-**AI / ML:** PyTorch · TensorFlow / Keras · scikit-learn · Hugging Face Transformers · OpenCV  
+**AI / ML:** PyTorch · TensorFlow / Keras · scikit-learn · XGBoost · Hugging Face Transformers · OpenCV  
 **Tools / Libraries:** Git / GitHub · VS Code · Jupyter Notebook / Colab · Pandas / NumPy · Matplotlib · Gradio
